@@ -255,12 +255,16 @@ a:link{text-decoration: none;}
     transition: translate var(--animation-timing);
     translate: -100%;
     /* padding: 0.5rem 1rem; */
-    padding-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 6rem);
+    padding-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 3rem);
     background-color: var(--foreground);
     color: var(--background-one);
     min-width: 100%;
     position: absolute;
-    z-index: 3;
+    z-index: -1;
+    margin-top: -50px;
+    padding-bottom: 10px;
+
+
 
 }
  
@@ -295,6 +299,22 @@ a:link{text-decoration: none;}
 
 
 
+@media (min-width:900px){
+    .close-tag{
+        display: none;
+    }
+    .main-header{
+        justify-content: center;
+    }
+    .logo{
+        margin-left: 100px;
+    }
+   .nav-links{
+    padding-left: 100px;
+    justify-content: space-between;
+
+   }
+}
 
 
 
@@ -308,8 +328,7 @@ a:link{text-decoration: none;}
     .nav{
         display: none;
     }
-
-
+    
 }
 
 
