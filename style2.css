@@ -376,7 +376,7 @@ a:link{text-decoration: none;}
 
 .about-me{
     background-color: var(--clr-dark);
-    background-image: url(../code-05-pic.jpeg);
+    background-image: url(images/code-05-pic.jpeg);
     background-size: cover;
     color: var(--clr-light);
     text-align: center;
@@ -454,7 +454,7 @@ a:link{text-decoration: none;}
 /*footer*/
 
 .footer-title-one{
-    background-image: url(../pro-10-pic.jpeg);
+    background-image: url(images/pro-10-pic.jpeg);
     background-position: center;
     background-size: cover;
     color: var(--clr-accent);
